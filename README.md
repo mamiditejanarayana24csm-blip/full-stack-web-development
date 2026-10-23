@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Full Stack Web Development
 
 Lab repository for the **Full Stack Web Development (FS)** course.
@@ -33,3 +34,7 @@ Lab repository for the **Full Stack Web Development (FS)** course.
 ## Author
 
 Name: ____________  |  Roll No: ____________
+=======
+# full-stack-web-development
+Full Stack Web Development Assignments and Projects
+>>>>>>> 463c3ed3d69cbf95ffbc4122908c191eccffdcff
