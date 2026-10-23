@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 01 - HTML5 &amp; CSS3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Full Stack Web Development</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card-row">
+      <article class="card"><h2>HTML5</h2><p>Semantic structure for the web.</p></article>
+      <article class="card"><h2>CSS3</h2><p>Styling with Flexbox and Grid.</p></article>
+      <article class="card"><h2>Forms</h2><p>Collecting validated user input.</p></article>
+    </section>
+
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="course">Course</label>
+        <select id="course" name="course">
+          <option>B.Tech CSE</option>
+          <option>B.Tech IT</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>&copy; 2026 FS Lab</p></footer>
+</body>
+</html>
